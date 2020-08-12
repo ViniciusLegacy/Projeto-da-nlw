@@ -9,9 +9,9 @@
 * Node.js - versão(12.18.3)
 * Git Bash
 
-## Instalação
-
-
+## Instalação do Git e Node
+https://git-scm.com/downloads
+https://nodejs.org/en/download/
 
  Foi utilizado o terminal do Git bash dentro do vscode para instalar as dependências e rodar a aplicação em um servidor local. A configuração do servidor foi feita no arquivo server.js.
 
