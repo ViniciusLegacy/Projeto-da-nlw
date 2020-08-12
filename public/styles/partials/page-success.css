@@ -1,3 +1,46 @@
 #page-success {
-    background-color: var(--color-primary)
+    background-color: var(--color-primary);
+}
+
+#page-success #container {
+    color: var(--color-text-in-primary);
+    text-align: center;
+}
+
+.sucess-container {
+    margin-bottom: 3.2rem;
+}
+
+.sucess-container h1{
+    color: var(--color-title-in-primary);
+    font-size: 5rem;
+}
+
+.sucess-container p {
+    font-size: 1.6rem;
+}
+
+.button-cont {
+    font: 700 2rem Archivo;
+    margin-top: 6rem;
+
+    display: flex;
+    justify-content: center;
+    
+    color: var(--color-button-text);
+}
+
+.button-cont a.study {
+    width: 21rem;
+    height: 7rem;
+
+    border-radius: 0.8rem;
+
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
