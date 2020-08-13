@@ -1,38 +1,41 @@
 #page-success {
     background-color: var(--color-primary);
+    background-image: url(/public/images/success-background.svg);
 }
 
-#page-success #container {
+#container-sucess {
     color: var(--color-text-in-primary);
     text-align: center;
 }
 
-.sucess-container {
-    margin-bottom: 3.2rem;
+.sucess-container img {
+    width: 12rem;
 }
 
-.sucess-container h1{
+.sucess-container h1 {
     color: var(--color-title-in-primary);
+
     font-size: 5rem;
+    line-height: 4.6rem;
+    margin-top: 1.4rem;
 }
 
 .sucess-container p {
+    margin-top: 2rem;
     font-size: 1.6rem;
 }
 
-.button-cont {
-    font: 700 2rem Archivo;
-    margin-top: 6rem;
-
+.button-container { 
     display: flex;
     justify-content: center;
-    
-    color: var(--color-button-text);
+
+    margin: 8rem 0;
 }
 
-.button-cont a.study {
+.button-container a.study {
     width: 21rem;
-    height: 7rem;
+    height: 6.5rem;
+    font: 600 2.2rem Archivo;
 
     border-radius: 0.8rem;
 
@@ -43,4 +46,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: background 0.2s;
+}
+
+.button-container a.study:hover {
+    background: var(--color-secondary-dark)
+}
+
+@media (max-width: 1100px){
+    :root {
+        font-size: 40%;
+    }
+}
+
+@media (min-width: 1100px) {
+    #container-success .sucess-container img {
+        height: 200px;
+    }
 }
