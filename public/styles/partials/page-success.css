@@ -1,12 +1,28 @@
 #page-success {
-    background-color: var(--color-primary);
-    background-image: url(/public/images/success-background.svg);
+    background-color: var(--color-primary);   
 }
+
+#container {
+    max-width: 65vw;
+    height: 68%;
+
+    background-image: url(/public/images/success-background.svg);
+    background-size: 100%;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 #container-sucess {
     color: var(--color-text-in-primary);
     text-align: center;
+
+    padding-top: 8rem;
 }
+
 
 .sucess-container img {
     width: 12rem;
